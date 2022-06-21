@@ -5,6 +5,8 @@ Simulate stellar variability due to faculae and spots as a star rotates or simul
 
 Any questions? Email lukejohnsonluke@gmail.com
 
+![actress_rotate_anim](https://user-images.githubusercontent.com/43743531/174888346-ee40a95b-6227-40d7-b8b8-396985204a50.gif)
+
 
 # ===============================
 # INSTALLATION (command-line)
