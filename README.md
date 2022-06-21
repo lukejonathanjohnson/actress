@@ -20,7 +20,7 @@ sudo python setup.py install
 # USAGE (Python)
 # ==============================
 
-```
+```python
 import actress as ac #import actress module
 
 sim = ac.Simulator() #create simulation instance
