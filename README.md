@@ -31,15 +31,14 @@ ld_dict = {'phot':[c_1, c_2, ... c_(N-1), c_N], #photospheric coeffs
            'fac':[c_1, c_2, ... c_(N-1), c_N],  #facular coeffs
            'func':ld_fn}       #limb-darkening fn (that takes N arguments)
 
-"""
-default limb-darkening function - ac.nonlin3:
+
+#default limb-darkening function - ac.nonlin3:
 def nonlin3(mu, I0, a, b, c):
     """
     3-parameter non-linear limb darkening fit
     """
     y = I0 * (1 - a*(1-mu) - b*(1-mu**(3/2)) - c*(1-mu**2))
     return y
-"""
 
 sim.setld(ld_dict) #update simulation ld coeffs
 
