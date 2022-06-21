@@ -26,9 +26,9 @@ import actress as ac #import actress module
 sim = ac.Simulator() #create simulation instance
 
 #define limb-darkening parameters (lists in a dictionary):
-ld_dict = {'phot':[c_1, c_2, ... c_(N-1), c(N)], #photospheric coeffs
-           'spot':[c_1, c_2, ... c_(N-1), c(N)], #spot coeffs
-           'fac':[c_1, c_2, ... c_(N-1), c(N)],  #facular coeffs
+ld_dict = {'phot':[c_1, c_2, ... c_(N-1), c_N], #photospheric coeffs
+           'spot':[c_1, c_2, ... c_(N-1), c_N], #spot coeffs
+           'fac':[c_1, c_2, ... c_(N-1), c_N],  #facular coeffs
            'func':ld_fn}       #limb-darkening fn (that takes N arguments)
 
 """
