@@ -3,10 +3,12 @@ Stellar Variability Simulator: Open source implementation - written in Python.
 
 Simulate stellar variability due to faculae and spots as a star rotates or simulate planetary transits across the inhomogeneous stellar surface.
 
+Any questions? Email lukejohnsonluke@gmail.com
 
-# =============================================================================
+
+# ===============================
 # INSTALLATION (command-line)
-# =============================================================================
+# ===============================
 
 Clone repository:
 git clone https://github.com/lukejonathanjohnson/actress.git
@@ -14,10 +16,11 @@ git clone https://github.com/lukejonathanjohnson/actress.git
 Navigate to the actress directory and run setup.py:
 sudo python setup.py install
 
-# =============================================================================
+# ==============================
 # USAGE (Python)
-# =============================================================================
+# ==============================
 
+```
 import actress as ac #import actress module
 
 sim = ac.Simulator() #create simulation instance
@@ -55,7 +58,7 @@ sim.rotate_anim(i, N, mode) #create animation of rotating star and resulting lig
 
 lct = sim.transit_lc(rr, i=i, N=N, mode=mode) #calculate transit lightcurve, with planet/star radius ratio rr
 sim.transit_anim(rr, i=i, N=N, mode=mode) #create animation of planetary transit and resulting lightcurve (same as above)
-
+```
 
 
 
