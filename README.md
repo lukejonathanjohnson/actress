@@ -1,7 +1,7 @@
 # actress
 Stellar Variability Simulator: Open source implementation - written in Python.
 
-Simulate stellar variability due to faculae and spots as a star rotates or simulate planetary transits across the inhomogeneous stellar surface.
+Simulate stellar variability due to faculae and spots as a star rotates or simulate planetary transits across the inhomogeneous stellar surface. This work would not have been possible without implementation of the HealPix algorithm - https://github.com/jankotek/HEALPix
 
 Any questions? Email lukejohnsonluke@gmail.com
 
